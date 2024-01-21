@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Moo+Lah+Lah&family=Permanent+Marker&family=Salsa&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:rgb(0, 0, 0) ;
+            color:rgb(176, 240, 235);
+            font-family:'Salsa',sans-serif ;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(95, 92, 94);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+         nav ul li  {
+                list-style: none;
+                margin: 0 23px;
+        }
+        nav ul li a {
+                text-decoration: none;
+                color: white;
+        }
+        nav ul li a:hover{
+                color: rgb(41, 199, 227);
+        }
+        .Left{
+            font-size: 2rem;            
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+            text-wrap: balance;
+        }
+        .firstSection> div{
+            width: 30%;
+        }
+        .LeftSection{
+            margin: 30px 0;
+            width: 50%;
+            font-size: 2rem;
+        }      
+        .LeftSection .btn{
+            padding: 12px;
+            background: rgb(72, 70, 70);
+            color: #ffffff;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }      
+        .LeftSection .buttons{
+            padding: 50px 0;
+        }
+        .RightSection{
+            width: 80%;
+        }
+        #element{
+            color:rgb(223, 164, 219) ;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+        }
+        main hr{
+            border: 0;
+            background:rgb(4, 84, 44) ;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .secondSection{
+            font-size: 1.8rem;
+            height: 80vh;
+        }
+        .text-gray{
+            color: rgb(14, 219, 255);
+        }
+        .secondSection .box{
+        background: white;
+        width: 30vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+        position: absolute;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .vertical-title{
+          position: relative;
+          top: 75px;
+          width: 150px;
+          font-size: 20px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: rgb(255, 255, 255);
+            width: 150px;
+            font-size: 15px;
+            flex-direction: center;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        footer{
+            background-color: rgb(26, 25, 30);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: rgb(87, 82, 82);
+            padding: 12px ;
+        }
+        .buttons .btn:hover{
+            color: rgb(234, 153, 13);
+        }
+        .button a{
+            height: 100px;
+        }
+        .socialicons{
+            display: flex;
+            justify-content: center;
+            height: 50%;
+            margin-top: 3%;
+        }
+        .socialicons a{
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 50%;
+            height: 50% ;
+        }
+        .socialicons a i{
+            font-size: 2rem;
+            color: rgb(41, 163, 200);
+            height: 10px;
+        }
+        .footerNav{
+            margin: 20px 0;
+        }
+        .footerNav ul{
+            display: flex;
+            justify-content: center;
+        }
+        .footerNav ul li a{
+           color: rgb(205, 153, 153);
+           margin: 20px;
+           text-decoration: none;
+           font-size: 1.3em;
+           opacity: 0.7;
+           transition: 0.5s;
+        }
+        .footerNav ul li a:hover{
+            opacity: 5;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Left">My Portfolio</div>
+            <div class="Right">
+                <ul>
+                  <li><a href="/"><li>About</a></li>
+                  <li><a href="/"><li>Education</a></li>
+                  <li><a href="/"><li>Projects</a></li>
+                  <li><a href="/"><li>Contact Me</a></li>
+               </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+    <main>
+        <section class="firstSection">
+            <div class="LeftSection">
+               Hello,I'm <span class="blue">Radha</span> 
+               <div> passionate</div>
+               <span id="element"></span> 
+               <div class="buttons">
+                <a href="https://drive.google.com/file/d/1BDJj_kBCQHolR5IcuxLDVYamGu75FNu3/view?usp=drive_link">
+                <button class="btn">Download Resume</button></a>
+                <button class="btn">Visit Github</button>
+               </div>
+            </div>
+            <div class="RightSection">
+                <img src="bg12.png.jpg.jpg" alt style="width: 80%; margin: 30px 0";>
+                
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I Have done so far</span>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="https://cdn.iconscout.com/icon/free/png-256/free-html-3629430-3032423.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        The HTML language is basically "Hyper Text Markup Language" use to create the "Structure" of any website or web page.
+                        It is use by "Frontend Developer" to create website,just like i used to create  this MyPortfolio.  before this I created
+                        a project of "Landing Page" in that i used a framework of HTML this is BootStrap.
+                    </div>
+                </div>
+            
+                <div class="vertical">
+                    <img class="image-top" src="https://cdn.iconscout.com/icon/free/png-256/free-css-alt-3628710-3029935.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-desc">
+                        The CSS language is basically "Cascading Style Sheet" use to create the "Design,font-styles, images" of any website or web page. It is also use by "Frontend Developer" to Design website,just like i used to create  this MyPortfolio.
+                        before this I createda project of "Landing Page" in that also i used "CSS" to add logo of different apps.       
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Radha's Developer Portfolio</h3>
+            </div>
+            <div class="footerContainer">
+               <div class="socialicons">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+               </div>
+               <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">services</a></li>
+                </ul>
+               </div>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; radhasportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element',{
+         strings:['Frontend Developer'],
+            typeSpeed:50,
+        });
+    </script>
+    </body>
+</html>
